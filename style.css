@@ -195,6 +195,14 @@ a {
   padding-bottom: 15vh;
 }
 
+.header-h1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  padding-top: 10vh;
+}
+
 @media only screen and (max-width: 768px) {
   .header-h1 {
     align-items: center;
@@ -264,7 +272,14 @@ a {
   padding-bottom: 5px;
 }
 
-
+.card-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10vh;
+  padding-bottom: 5px;
+}
 
 .card {
   display: flex;

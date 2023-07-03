@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="image/pp/WhatsApp Görsel 2023-07-02 saat 19,42,45-photoaidcom-cropped (1).jpg"/>
+    <link rel="shortcut icon" href="image/pp/WhatsApp Görsel 2023-07-02 saat 19,42,45-photoaidcom-cropped (1).jpg" />
     <meta name="author" content="Eren KALAYCI">
     <meta name="keywords"
         content="KLYCAAI, NFT, transform, cyberpunk, Cyberia, Ignitia, Aero, Gravita, Voltessa, OpenSea, ethereum, Polygon, coin, metamask">
@@ -36,105 +36,53 @@
                             </button>
                         </div>
                     </li>
-                    <li>
-                        <div class="wrap">
-                            <button class="button"
-                                onClick="window.open('https://tofunft.com/user/0x7f9CeBbA222543a15e2418d9a3e151266891E16c/items/in-wallet', '_blank');">TOFU
-                                NFT</button>
-                            </button>
+
+                    <div id="myDiv" class="fade-in">
+                        <div class="header-h1-1">
+                            <h1>WELCOME TO MY NFT COLLECTION
+                            </h1>
                         </div>
-                    </li>
-                    <li>
-                        <div class="wrap">
-                            <button class="button"
-                                onClick="window.open('https://opensea.io/collection/novaforestverse', '_blank');">OPENSEA</button>
-                            </button>
+                    </div>
+
+                    <!--Cards-->
+                    <div class="card-container-1">
+                        <div class="card">
+                            <img src="image/PP/profile_photo.png" class="zoomable-image" alt="Card Image">
+                            <h2 class="card-title">NOVA FORESTVERSE</h2>
+                            <p class="card-description">A collection from a rare series of 5000 pieces on the Arbitrum
+                                Nova....
+                            </p>
+                            <button class="card-button"><a href="novaforestverse.html">NOVA FORESTVERSE</a></button>
                         </div>
-                    </li>
-                    <li>
-                        <div class="wrap">
-                            <button class="button"
-                                onClick="window.open('https://twitter.com/Novaforestverse', '_blank');">TWITTER</button>
-                            </button>
+                        <div class="card">
+                            <img src="" class="zoomable-image" alt="Card Image">
+                            <h2 class="card-title">VERY COMING SOON</h2>
+                            <p class="card-description">VERY COMING SOON...
+                            </p>
+                            <button class="card-button"><a
+                                    href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81528324893516349121537193894416915257271663868495279858899085032488251162632"
+                                    target="_blank">OpenSea</a></button>
                         </div>
-                    </li>
-                    <li>
-                        <div class="wrap">
-                            <button class="button"
-                                onClick="window.open('https://www.instagram.com/novaforestverse/', '_blank');">INSTAGRAM</button>
-                            </button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="wrap">
-                            <button class="button"
-                                onClick="window.open('https://discord.gg/nBDKWsfk', '_blank');">DISCORD</button>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 
-        <div id="myDiv" class="fade-in">
-            <div class="header-h1">
-                <h1>WELCOME TO NOVA FORESTVERSE
-                </h1>
-            </div>
-        </div>
+                    </div>  
+                    <!--Cards-->
 
-        <!--Cards-->
-        <div id="sayfa2" tabindex="1">
-            <div class="card-container">
+                    <div class="scroll-btn">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
 
-                <div class="card">
-                    <img src="image/PP/profile_photo.png" class="zoomable-image" alt="Card Image">
-                    <h2 class="card-title">NOVA FORESTVERSE</h2>
-                    <p class="card-description">A collection from a rare series of 5000 pieces on the Arbitrum Nova....
-                    </p>
-                    <button class="card-button"><a
-                            href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/81528324893516349121537193894416915257271663868495279858899085032488251162632"
-                            target="_blank">OpenSea</a></button>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!--Cards-->
-        
-        <div id="sayfa1" tabindex="0">
-            <div class="animated-div">
-                <div class="image-slider">
-                    <img src="image/NFT/4.png" alt="Resim 1">
-                    <img src="image/NFT/7.png" alt="Resim 2">
-                    <img src="image/NFT/54.png" alt="Resim 3">
-                    <img src="image/NFT/23.png" alt="Resim 4">
-                    <img src="image/NFT/38.png" alt="Resim 5">
-                    <img src="image/NFT/21.png" alt="Resim 6">
-                    <img src="image/NFT/85.png" alt="Resim 7">
-                    <img src="image/NFT/74.png" alt="Resim 8">
-                    <img src="image/NFT/82.png" alt="Resim 9">
-                    <img src="image/NFT/83.png" alt="Resim 10">
-                    <img src="image/NFT/56.png" alt="Resim 11">
-                </div>
+                    <script>
+                        const scrollBtn = document.querySelector('.scroll-btn');
+                        scrollBtn.addEventListener('click', () => {
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        });
+                    </script>
 
-        <div class="scroll-btn">
-            <i class="fas fa-arrow-up"></i>
-        </div>
-
-        <script>
-            const scrollBtn = document.querySelector('.scroll-btn');
-            scrollBtn.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        </script>
-
-        <div class="scroll-down-animation" onclick="scrollDown()"></div>
-
-        <script>
-            function scrollDown() {
-                window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
-            }
-        </script>
+                    <script>
+                        function scrollDown() {
+                            window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+                        }
+                    </script>
 
 
     </body>
