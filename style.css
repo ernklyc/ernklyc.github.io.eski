@@ -4,10 +4,10 @@
 
 /**/
 body {
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #111821 00%);
+  /*background: radial-gradient(ellipse at bottom, #1B2735 0%, #111821 00%);*/
   font-family: 'Raleway', sans-serif;
   font-weight: thin;
-  background: rgb(31, 28, 39);
+  background-color: #1B2735 ;
   height: 100vh;
 }
 
@@ -32,7 +32,7 @@ body:after {
   z-index: -1;
   width: 200%;
   height: 200%;
-  background: url('image/pp/wallpapersden.com_programming-coding-language_1920x1080.jpg');
+  /*background: url('image/pp/wallpapersden.com_programming-coding-language_1920x1080.jpg');*/
   background-size: contain;
   background-position: 600px -200px;
   filter: blur(30px);
@@ -80,13 +80,13 @@ nav ul li a {
 
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
   nav ul li {
     text-align: center;
   }
 }
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 768px) {
   nav ul li {
     text-align: center;
     display: inline-block;
