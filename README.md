@@ -1,3 +1,1 @@
-http://ernklyc.com
-<br>
-https://klychub.github.io/
+https://ernklyc.github.io/
